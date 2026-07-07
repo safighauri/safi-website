@@ -2,6 +2,9 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Fraunces:wght@500;600&display=swap">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Safi Ghauri — Crypto Lawyer · Barrister · Geopolitical Analyst</title>
   <meta name="keywords" content="crypto lawyer, Web3 lawyer, blockchain lawyer, VARA lawyer, MiCA lawyer, stablecoin lawyer, RWA lawyer, Dubai crypto lawyer, UAE crypto lawyer, Pakistan crypto lawyer, Brazil crypto lawyer, MENA crypto lawyer, cross-border crypto regulation, digital assets counsel, Safi Ghauri, Esquare Legal, Tahota Law Firm, barrister Lincoln's Inn, geopolitical analyst">
@@ -23,6 +26,7 @@
   "@context": "https://schema.org",
   "@type": "Person",
   "name": "Safi Ghauri",
+  "image": "https://www.safighauri.com/headshot.png",
   "alternateName": ["Safiullah Ghauri", "Safi Ull Ghauri", "Barrister Safi Ghauri"],
   "jobTitle": "Managing Partner",
   "affiliation": [
@@ -104,6 +108,11 @@
   "email": "safighauri@esquarelegal.com"
 }
 </script>
+<style>
+@media (max-width: 900px) {
+  .hero > div > div:last-child { order: -1; margin: 0 auto 24px; }
+}
+</style>
 </head>
 <body>
 
@@ -138,6 +147,7 @@ function toggleMenu() {
 
 <!-- HERO -->
 <section class="hero" style="padding-top:140px;">
+  <div style="display:flex;align-items:center;justify-content:space-between;gap:48px;max-width:1100px;flex-wrap:wrap;">
   <div class="hero-content">
     <h1>Safi Ghauri</h1>
     <p class="hero-subtitle">Barrister · Crypto Lawyer · Geopolitical Analyst</p>
@@ -146,6 +156,15 @@ function toggleMenu() {
       <a href="contact.html" class="btn btn-gold">Start a Conversation</a>
       <a href="intelligence.html" class="btn btn-outline">Explore Intelligence</a>
     </div>
+  </div>
+  <div style="flex-shrink:0;">
+    <img src="/headshot.png"
+         alt="Safi Ghauri, crypto lawyer and barrister"
+         width="380" height="380"
+         style="border-radius:8px;object-fit:cover;width:min(380px,100%);"
+         loading="eager"
+         fetchpriority="high">
+  </div>
   </div>
 </section>
 
