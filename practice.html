@@ -34,6 +34,7 @@
 {
   "@context": "https://schema.org",
   "@type": "Person",
+  "@id": "https://esquarelegal.com/founder/#person",
   "name": "Safi Ghauri",
   "alternateName": [
     "Safi Ullah Ghauri",
@@ -41,40 +42,42 @@
     "Barrister Safi Ullah Ghauri",
     "Barrister Safi Ghauri"
   ],
-  "jobTitle": "Managing Partner",
+  "jobTitle": "Founder & Managing Partner",
+  "worksFor": {
+    "@type": "Organization",
+    "@id": "https://esquarelegal.com/#organization",
+    "name": "Esquare Legal",
+    "url": "https://esquarelegal.com/"
+  },
   "affiliation": [
-    {
-      "@type": "Organization",
-      "name": "Esquare Legal",
-      "url": "https://esquarelegal.com"
-    },
     {
       "@type": "Organization",
       "name": "Tahota Law Firm"
     }
   ],
-  "alumniOf": {
-    "@type": "Organization",
-    "name": "Lincoln's Inn, London"
-  },
+  "alumniOf": [
+    {
+      "@type": "CollegeOrUniversity",
+      "name": "University of London"
+    },
+    {
+      "@type": "CollegeOrUniversity",
+      "name": "City St George's, University of London"
+    },
+    {
+      "@type": "Organization",
+      "name": "The Honourable Society of Lincoln's Inn"
+    }
+  ],
   "address": {
     "@type": "PostalAddress",
     "addressLocality": "São Paulo",
     "addressCountry": "BR"
   },
-  "sameAs": [
-    "https://www.linkedin.com/in/safi-ghauri",
-    "https://x.com/safighauri",
-    "https://www.youtube.com/@ghaurisafi",
-    "https://www.instagram.com/safi.ghauri/",
-    "https://medium.com/@Safi.Ullah.Ghauri",
-    "https://www.wikidata.org/wiki/Q139568272",
-    "https://esquarelegal.com/founder",
-    "https://www.crunchbase.com/person/safi-ghauri-0a7b",
-    "https://www.brecorder.com/authors/102153/barrister-safi-ullah-ghauri",
-    "https://thefridaytimes.com/contributor/safiullah-ghauri",
-    "https://www.pakistangulfeconomist.com/author/barrister-safi-ullah-ghauri/"
-  ],
+  "url": "https://www.safighauri.com/",
+  "image": "https://www.safighauri.com/headshot.png",
+  "email": "safighauri@esquarelegal.com",
+  "description": "Pakistani barrister qualified at Lincoln's Inn, registered in Brazil. Managing Partner Esquare Legal. Partner Tahota Law Firm. 300+ broadcast appearances. Speaker Horasis, COP30, EU Commission DARTE. Cited The Independent UK, Bloomberg Arabic, CNA, Reuters.",
   "knowsAbout": [
     "Digital Asset Regulation",
     "Cross-Border Law",
@@ -90,9 +93,19 @@
     "CBDC",
     "Blockchain Arbitration"
   ],
-  "description": "Pakistani barrister qualified at Lincoln's Inn, registered in Brazil. Managing Partner Esquare Legal. Partner Tahota Law Firm. 300+ broadcast appearances. Speaker Horasis, COP30, EU Commission DARTE. Cited The Independent UK, Bloomberg Arabic, CNA, Reuters.",
-  "url": "https://safighauri.com",
-  "email": "safighauri@esquarelegal.com"
+  "sameAs": [
+    "https://www.linkedin.com/in/safi-ghauri",
+    "https://x.com/safighauri",
+    "https://www.youtube.com/@ghaurisafi",
+    "https://www.instagram.com/safi.ghauri/",
+    "https://medium.com/@Safi.Ullah.Ghauri",
+    "https://www.wikidata.org/wiki/Q139568272",
+    "https://esquarelegal.com/founder/",
+    "https://www.crunchbase.com/person/safi-ghauri-0a7b",
+    "https://www.brecorder.com/authors/102153/barrister-safi-ullah-ghauri",
+    "https://thefridaytimes.com/contributor/safiullah-ghauri",
+    "https://www.pakistangulfeconomist.com/author/barrister-safi-ullah-ghauri/"
+  ]
 }
 </script>
 </head>
@@ -150,7 +163,7 @@ function toggleMenu() {
           <div class="expand-icon">+</div>
         </div>
         <div class="expand-body">
-          <p style="margin-bottom:16px;">From MiCA compliance in the EU to VARA licensing in Dubai to VASP registration in Brazil, Safi has built regulatory pathways across more jurisdictions than most specialists encounter in a career. He secured a full-scope VARA licence in Dubai, advised on Pakistan's first BNPL licence, and has handled crypto licensing across multiple jurisdictions and activity types.</p>
+          <p style="margin-bottom:16px;">From MiCA compliance in the EU to VARA licensing in Dubai to VASP registration in Brazil, Safi has built regulatory pathways across more jurisdictions than most specialists encounter in a career. He obtained a VARA licence for a UAE digital asset platform, advised on Pakistan's first BNPL licence, and has handled crypto licensing across multiple jurisdictions and activity types.</p>
           <p style="margin-bottom:16px;">His work in this area has been cited in peer-reviewed academic research ranging from PhD theses of Tsinghua University in 2024 to blockchain arbitration, published through China's arbitration research community in 2025. He participated in the European Commission and UNIDROIT's DARTE expert series on the implementation of MiCA and the Travel Rule across Latin America — working at the level where the frameworks are being constructed, not merely interpreted.</p>
           <p>He is the practitioner other practitioners come to when the problem crosses more than one jurisdiction simultaneously.</p>
         </div>
@@ -238,9 +251,9 @@ function toggleMenu() {
 <!-- JURISDICTIONS TABLE -->
 
     <div class="pvara-callout" style="border-left:3px solid #c8a24a;padding:20px 24px;margin:40px 0;background:rgba(200,162,74,.06);">
-      <h3 style="margin-top:0;">Pakistan &mdash; PVARA licensing deadline 5 September 2026</h3>
-      <p style="margin-bottom:12px;">Any person providing virtual asset services in Pakistan on or before 5 March 2026 is a Transitional Person under Section 70 of the Virtual Assets Act, 2026, and must file a No Objection Certificate application by 5 September 2026 or cease operating.</p>
-      <p style="margin-bottom:0;"><a href="pvara.html">PVARA licensing: the two tracks, the eleven categories, and where applications fail &rarr;</a></p>
+      <h3 style="margin-top:0;">Pakistan &mdash; PVARA licensing</h3>
+      <p style="margin-bottom:12px;">Under section 70 of the Virtual Assets Act, 2026 and PVARA advisory PVARA/ADV/001/2026, existing operators had to apply for an NOC by 5 September 2026; that date has passed. Licensing now runs in three steps under the Pakistan Virtual Asset Services Regulations, 2026 (S.R.O. 1419(I)/2026): NOC (Reg 6), incorporation and FMU registration, then the licence application (Reg 7).</p>
+      <p style="margin-bottom:0;"><a href="pvara.html">PVARA licensing: the three steps, the eleven categories and minimum capital &rarr;</a></p>
     </div>
 
 <section style="background:var(--grey-bg);padding:60px 48px;">

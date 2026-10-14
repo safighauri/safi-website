@@ -44,7 +44,6 @@
 }
 .subnav a:hover { color: var(--navy); border-bottom-color: var(--gold); }
 </style>
-  <!-- Google Analytics GA4 Code -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-TPERW6B13T"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -52,11 +51,11 @@
   gtag('js', new Date());
   gtag('config', 'G-TPERW6B13T');
 </script>
-<!-- JSON-LD Schema -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Person",
+  "@id": "https://esquarelegal.com/founder/#person",
   "name": "Safi Ghauri",
   "alternateName": [
     "Safi Ullah Ghauri",
@@ -64,40 +63,42 @@
     "Barrister Safi Ullah Ghauri",
     "Barrister Safi Ghauri"
   ],
-  "jobTitle": "Managing Partner",
+  "jobTitle": "Founder & Managing Partner",
+  "worksFor": {
+    "@type": "Organization",
+    "@id": "https://esquarelegal.com/#organization",
+    "name": "Esquare Legal",
+    "url": "https://esquarelegal.com/"
+  },
   "affiliation": [
-    {
-      "@type": "Organization",
-      "name": "Esquare Legal",
-      "url": "https://esquarelegal.com"
-    },
     {
       "@type": "Organization",
       "name": "Tahota Law Firm"
     }
   ],
-  "alumniOf": {
-    "@type": "Organization",
-    "name": "Lincoln's Inn, London"
-  },
+  "alumniOf": [
+    {
+      "@type": "CollegeOrUniversity",
+      "name": "University of London"
+    },
+    {
+      "@type": "CollegeOrUniversity",
+      "name": "City St George's, University of London"
+    },
+    {
+      "@type": "Organization",
+      "name": "The Honourable Society of Lincoln's Inn"
+    }
+  ],
   "address": {
     "@type": "PostalAddress",
     "addressLocality": "São Paulo",
     "addressCountry": "BR"
   },
-  "sameAs": [
-    "https://www.linkedin.com/in/safi-ghauri",
-    "https://x.com/safighauri",
-    "https://www.youtube.com/@ghaurisafi",
-    "https://www.instagram.com/safi.ghauri/",
-    "https://medium.com/@Safi.Ullah.Ghauri",
-    "https://www.wikidata.org/wiki/Q139568272",
-    "https://esquarelegal.com/founder",
-    "https://www.crunchbase.com/person/safi-ghauri-0a7b",
-    "https://www.brecorder.com/authors/102153/barrister-safi-ullah-ghauri",
-    "https://thefridaytimes.com/contributor/safiullah-ghauri",
-    "https://www.pakistangulfeconomist.com/author/barrister-safi-ullah-ghauri/"
-  ],
+  "url": "https://www.safighauri.com/",
+  "image": "https://www.safighauri.com/headshot.png",
+  "email": "safighauri@esquarelegal.com",
+  "description": "Pakistani barrister qualified at Lincoln's Inn, registered in Brazil. Managing Partner Esquare Legal. Partner Tahota Law Firm. 300+ broadcast appearances. Speaker Horasis, COP30, EU Commission DARTE. Cited The Independent UK, Bloomberg Arabic, CNA, Reuters.",
   "knowsAbout": [
     "Digital Asset Regulation",
     "Cross-Border Law",
@@ -113,9 +114,19 @@
     "CBDC",
     "Blockchain Arbitration"
   ],
-  "description": "Pakistani barrister qualified at Lincoln's Inn, registered in Brazil. Managing Partner Esquare Legal. Partner Tahota Law Firm. 300+ broadcast appearances. Speaker Horasis, COP30, EU Commission DARTE. Cited The Independent UK, Bloomberg Arabic, CNA, Reuters.",
-  "url": "https://safighauri.com",
-  "email": "safighauri@esquarelegal.com"
+  "sameAs": [
+    "https://www.linkedin.com/in/safi-ghauri",
+    "https://x.com/safighauri",
+    "https://www.youtube.com/@ghaurisafi",
+    "https://www.instagram.com/safi.ghauri/",
+    "https://medium.com/@Safi.Ullah.Ghauri",
+    "https://www.wikidata.org/wiki/Q139568272",
+    "https://esquarelegal.com/founder/",
+    "https://www.crunchbase.com/person/safi-ghauri-0a7b",
+    "https://www.brecorder.com/authors/102153/barrister-safi-ullah-ghauri",
+    "https://thefridaytimes.com/contributor/safiullah-ghauri",
+    "https://www.pakistangulfeconomist.com/author/barrister-safi-ullah-ghauri/"
+  ]
 }
 </script>
   <script type="application/ld+json">
@@ -130,7 +141,7 @@
       "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
       "location": {"@type": "Place", "name": "World Trade Center", "address": {"@type": "PostalAddress", "addressLocality": "São Paulo", "addressCountry": "BR"}},
       "description": "Panellist. Co-organised by the European Commission and UNIDROIT. Expert series on MiCA, Travel Rule, and digital asset regulation across LATAM.",
-      "performer": {"@type": "Person", "name": "Safi Ghauri", "url": "https://www.safighauri.com"},
+      "performer": {"@type": "Person", "@id": "https://esquarelegal.com/founder/#person", "name": "Safi Ghauri", "url": "https://www.safighauri.com/"},
       "organizer": {"@type": "Organization", "name": "European Commission, UNIDROIT"}
     },
     {
@@ -141,7 +152,7 @@
       "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
       "location": {"@type": "Place", "name": "Goa", "address": {"@type": "PostalAddress", "addressLocality": "Goa", "addressCountry": "IN"}},
       "description": "Legal mentor on digital assets and regulation.",
-      "performer": {"@type": "Person", "name": "Safi Ghauri", "url": "https://www.safighauri.com"},
+      "performer": {"@type": "Person", "@id": "https://esquarelegal.com/founder/#person", "name": "Safi Ghauri", "url": "https://www.safighauri.com/"},
       "organizer": {"@type": "Organization", "name": "Stellar Development Foundation"}
     },
     {
@@ -152,7 +163,7 @@
       "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
       "location": {"@type": "Place", "name": "University of São Paulo", "address": {"@type": "PostalAddress", "addressLocality": "São Paulo", "addressCountry": "BR"}},
       "description": "Speaker on digital assets regulation. 1,000+ leaders from 50 countries.",
-      "performer": {"@type": "Person", "name": "Safi Ghauri", "url": "https://www.safighauri.com"},
+      "performer": {"@type": "Person", "@id": "https://esquarelegal.com/founder/#person", "name": "Safi Ghauri", "url": "https://www.safighauri.com/"},
       "organizer": {"@type": "Organization", "name": "Horasis"}
     },
     {
@@ -163,7 +174,7 @@
       "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
       "location": {"@type": "Place", "name": "Belém", "address": {"@type": "PostalAddress", "addressLocality": "Belém", "addressCountry": "BR"}},
       "description": "Speaker on blockchain technology for climate finance infrastructure. UN climate conference side events.",
-      "performer": {"@type": "Person", "name": "Safi Ghauri", "url": "https://www.safighauri.com"},
+      "performer": {"@type": "Person", "@id": "https://esquarelegal.com/founder/#person", "name": "Safi Ghauri", "url": "https://www.safighauri.com/"},
       "organizer": {"@type": "Organization", "name": "UNFCCC COP30"}
     },
     {
@@ -174,7 +185,7 @@
       "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
       "location": {"@type": "Place", "name": "Copacabana Palace", "address": {"@type": "PostalAddress", "addressLocality": "Rio de Janeiro", "addressCountry": "BR"}},
       "description": "Speaker. 1,200+ attendees including the former Central Bank of Brazil President.",
-      "performer": {"@type": "Person", "name": "Safi Ghauri", "url": "https://www.safighauri.com"},
+      "performer": {"@type": "Person", "@id": "https://esquarelegal.com/founder/#person", "name": "Safi Ghauri", "url": "https://www.safighauri.com/"},
       "organizer": {"@type": "Organization", "name": "Stellar Development Foundation"}
     },
     {
@@ -185,7 +196,7 @@
       "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
       "location": {"@type": "Place", "name": "São Paulo", "address": {"@type": "PostalAddress", "addressLocality": "São Paulo", "addressCountry": "BR"}},
       "description": "Panellist, closed-door high-level regulatory session with ETH Latam leadership.",
-      "performer": {"@type": "Person", "name": "Safi Ghauri", "url": "https://www.safighauri.com"},
+      "performer": {"@type": "Person", "@id": "https://esquarelegal.com/founder/#person", "name": "Safi Ghauri", "url": "https://www.safighauri.com/"},
       "organizer": {"@type": "Organization", "name": "ETH Latam"}
     },
     {
@@ -196,7 +207,7 @@
       "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
       "location": {"@type": "Place", "name": "Islamabad", "address": {"@type": "PostalAddress", "addressLocality": "Islamabad", "addressCountry": "PK"}},
       "description": "Trainer for stakeholders on use of cryptocurrencies and dark web in terror financing.",
-      "performer": {"@type": "Person", "name": "Safi Ghauri", "url": "https://www.safighauri.com"},
+      "performer": {"@type": "Person", "@id": "https://esquarelegal.com/founder/#person", "name": "Safi Ghauri", "url": "https://www.safighauri.com/"},
       "organizer": {"@type": "Organization", "name": "United Nations Office on Drugs and Crime"}
     },
     {
@@ -207,7 +218,7 @@
       "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
       "location": {"@type": "Place", "name": "Pakistan", "address": {"@type": "PostalAddress", "addressCountry": "PK"}},
       "description": "Panellist. Financial Action Task Force panel on cryptocurrency regulation.",
-      "performer": {"@type": "Person", "name": "Safi Ghauri", "url": "https://www.safighauri.com"},
+      "performer": {"@type": "Person", "@id": "https://esquarelegal.com/founder/#person", "name": "Safi Ghauri", "url": "https://www.safighauri.com/"},
       "organizer": {"@type": "Organization", "name": "Financial Action Task Force"}
     },
     {
@@ -218,7 +229,7 @@
       "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
       "location": {"@type": "VirtualLocation", "url": "https://www.safighauri.com/media-speaking.html"},
       "description": "Presenter alongside NEPRA Chairman Tauseef H. Farooqi.",
-      "performer": {"@type": "Person", "name": "Safi Ghauri", "url": "https://www.safighauri.com"},
+      "performer": {"@type": "Person", "@id": "https://esquarelegal.com/founder/#person", "name": "Safi Ghauri", "url": "https://www.safighauri.com/"},
       "organizer": {"@type": "Organization", "name": "National Electric Power Regulatory Authority"}
     },
     {
@@ -229,7 +240,7 @@
       "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
       "location": {"@type": "Place", "name": "Islamabad", "address": {"@type": "PostalAddress", "addressLocality": "Islamabad", "addressCountry": "PK"}},
       "description": "Invited address on interpretation and commercial implications of Chinese infrastructure contracts.",
-      "performer": {"@type": "Person", "name": "Safi Ghauri", "url": "https://www.safighauri.com"}
+      "performer": {"@type": "Person", "@id": "https://esquarelegal.com/founder/#person", "name": "Safi Ghauri", "url": "https://www.safighauri.com/"}
     },
     {
       "@type": "Event",
@@ -239,7 +250,7 @@
       "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
       "location": {"@type": "Place", "name": "Pakistan", "address": {"@type": "PostalAddress", "addressCountry": "PK"}},
       "description": "Panellist on Web3 and emerging technology law.",
-      "performer": {"@type": "Person", "name": "Safi Ghauri", "url": "https://www.safighauri.com"},
+      "performer": {"@type": "Person", "@id": "https://esquarelegal.com/founder/#person", "name": "Safi Ghauri", "url": "https://www.safighauri.com/"},
       "organizer": {"@type": "Organization", "name": "Google Developers Club"}
     }
   ]
@@ -284,7 +295,7 @@ function toggleMenu() {
   <div style="max-width:1100px;margin:0 auto;display:flex;justify-content:space-between;align-items:flex-end;flex-wrap:wrap;gap:24px;">
     <div>
       <h1>Media &amp; Speaking</h1>
-      <p>The public record of broadcast appearances, print citations, and speaking engagements. The calibre of the peer group tells the story.</p>
+      <p>The public record of broadcast appearances, print citations, and speaking engagements.</p>
     </div>
     <a href="press-kit.html" class="btn btn-gold" style="flex-shrink:0;">Download Press Kit →</a>
   </div>
@@ -299,13 +310,11 @@ function toggleMenu() {
   <a href="#booking">Booking</a>
 </div>
 
-<!-- SECTION 1: BROADCAST -->
 <section id="broadcast">
   <div class="section-inner">
     <p class="section-title">Broadcast</p>
     <p style="font-size:17px;line-height:1.7;max-width:720px;margin-bottom:32px;">Over 300 broadcast appearances as a political and legal analyst, including as a regular contributor to Pakistan TV, the country's international broadcast channel. Coverage spans Pakistan's national security posture, South Asian strategic dynamics, active conflict in the Middle East, the geopolitics of financial regulation, and global capital flows. Officially appointed as Pakistan TV's South America Correspondent — reporting from São Paulo, Brazil.</p>
 
-    <!-- VIDEO EMBED -->
     <div style="max-width:800px;margin-bottom:12px;background:#000;">
       <iframe width="100%" height="440" src="https://www.youtube.com/embed/WuvmeFd9sHQ?start=1020" frameborder="0" allowfullscreen style="display:block;"></iframe>
     </div>
@@ -316,7 +325,7 @@ function toggleMenu() {
 
     <div class="citation-block">
       <div class="citation-pub">The Independent (UK) · April 2026</div>
-      <div class="citation-text">'Trump's blockade appears to be turning back tankers in the Strait of Hormuz — but Iran has a trick up its sleeve.' Cited on the asymmetric naval threat posed by unmanned underwater vehicles to US assets enforcing the blockade. Peer group: Chatham House, Kpler, New York Law School, Birkbeck.</div>
+      <div class="citation-text">'Trump's blockade appears to be turning back tankers in the Strait of Hormuz — but Iran has a trick up its sleeve.' Cited on the asymmetric naval threat posed by unmanned underwater vehicles to US assets enforcing the blockade. Quoted alongside Chatham House, Kpler, New York Law School and Birkbeck.</div>
       <a href="https://www.independent.co.uk/news/world/middle-east/strait-of-hormuz-blockade-trump-iran-us-oil-b2957912.html" target="_blank" class="citation-link">Read article →</a>
     </div>
 
@@ -353,7 +362,6 @@ function toggleMenu() {
   </div>
 </section>
 
-<!-- SECTION 2: PRINT CITATIONS -->
 <section id="print" style="background:var(--grey-bg);padding:80px 48px;">
   <div class="section-inner">
     <p class="section-title">Print &amp; Digital Citations</p>
@@ -427,7 +435,6 @@ function toggleMenu() {
   </div>
 </section>
 
-<!-- SECTION 3: SPEAKING -->
 <section id="speaking" style="padding:80px 48px;">
   <div class="section-inner">
     <p class="section-title">Speaking Engagements</p>
@@ -473,7 +480,6 @@ function toggleMenu() {
   </div>
 </section>
 
-<!-- SECTION 4: SPEAKER BIOS -->
 <section id="bios" style="background:var(--grey-bg);padding:80px 48px;">
   <div class="section-inner">
     <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:40px;flex-wrap:wrap;gap:16px;">
@@ -495,13 +501,12 @@ function toggleMenu() {
 
     <div class="bio-block">
       <div class="bio-block-label">Full (for conference programmes)</div>
-      <p id="bio-full">Barrister Safi Ghauri is the Managing Partner of Esquare Legal, a crypto-native cross-border law firm operating across the UAE, Brazil, Pakistan, and China through a partnership with Tahota Law Firm (top-100 global, 4,000+ practitioners, 30+ offices). Qualified at Lincoln's Inn and registered to practise in Brazil, he is based in São Paulo. His landmark cases include Pakistan's largest-ever defamation award, the NRO litigation, the Panama Leaks Election Commission proceedings, representing all associations of Pakistan International Airlines (300,000+ employees) in the PIA privatisation challenge, and a successful cryptocurrency matter before three Supreme Court of India judges. He secured Pakistan's first BNPL licence and established the country's lending fintech sector. He led the RUDA project, one of the largest Chinese overseas infrastructure investments at the time, valued at $4.8 billion. He secured one of VARA's earliest virtual asset licences and has overseen hundreds of millions of dollars in fundraising. A political analyst with over 300 broadcast appearances, he trained at Pakistan's National Defense University and serves as Pakistan TV's South America Correspondent. He has spoken at the Horasis Global Summit, COP30, and the European Commission and UNIDROIT's DARTE expert series. He has trained judges and prosecutors for UNODC and panelled at FATF.</p>
+      <p id="bio-full">Barrister Safi Ghauri is the Managing Partner of Esquare Legal, a crypto-native cross-border law firm operating across the UAE, Brazil, Pakistan, and China through a partnership with Tahota Law Firm (top-100 global, 4,000+ practitioners, 30+ offices). Qualified at Lincoln's Inn and registered to practise in Brazil, he is based in São Paulo. His landmark cases include Pakistan's largest-ever defamation award, the NRO litigation, the Panama Leaks Election Commission proceedings, representing all associations of Pakistan International Airlines (300,000+ employees) in the PIA privatisation challenge, and a successful cryptocurrency matter before three Supreme Court of India judges. He secured Pakistan's first BNPL licence and established the country's lending fintech sector. He led the RUDA project, one of the largest Chinese overseas infrastructure investments at the time, valued at $4.8 billion. He obtained a VARA licence for a UAE digital asset platform and has overseen hundreds of millions of dollars in fundraising. He currently represents one of the world's largest global exchanges and several leading fintechs before PVARA. A political analyst with over 300 broadcast appearances, he trained at Pakistan's National Defense University and serves as Pakistan TV's South America Correspondent. He has spoken at the Horasis Global Summit, COP30, and the European Commission and UNIDROIT's DARTE expert series. He has trained judges and prosecutors for UNODC and panelled at FATF.</p>
       <button class="copy-btn" onclick="copyBio('bio-full', this)">Copy</button>
     </div>
   </div>
 </section>
 
-<!-- SECTION 5: SPEAKING TOPICS -->
 <section id="topics" style="padding:80px 48px;">
   <div class="section-inner">
     <p class="section-title">Speaking Topics</p>
@@ -533,17 +538,33 @@ function toggleMenu() {
   </div>
 </section>
 
-<!-- BOOKING -->
-<div id="booking" class="cta-strip">
-  <div style="text-align:center;">
-    <p>For broadcast commentary, speaking invitations, panel bookings, and media enquiries:</p>
-    <div style="display:flex;gap:16px;justify-content:center;flex-wrap:wrap;margin-top:8px;">
-      <a href="mailto:safighauri@esquarelegal.com" class="btn btn-gold">safighauri@esquarelegal.com</a>
-      <a href="contact.html" class="btn btn-outline">Start a Conversation</a>
+<section id="booking" style="background:var(--grey-bg);padding:80px 48px;">
+  <div class="section-inner">
+    <p class="section-title">Booking</p>
+    <p style="font-size:17px;line-height:1.7;max-width:720px;margin-bottom:32px;">For broadcast commentary, speaking invitations, panel bookings and media enquiries.</p>
+    <table class="facts-table" style="max-width:800px;margin-bottom:40px;">
+      <tr><td>Location</td><td>São Paulo, Brazil</td></tr>
+      <tr><td>Languages</td><td>English, Urdu</td></tr>
+      <tr><td>Availability</td><td>Live or recorded, 08:00&ndash;22:00 BRT daily<br>= 11:00&ndash;01:00 GMT &nbsp;·&nbsp; 15:00&ndash;05:00 GST &nbsp;·&nbsp; 16:00&ndash;06:00 PKT</td></tr>
+      <tr><td>Direct contact</td><td><a href="mailto:safighauri@esquarelegal.com" style="color:var(--gold);">safighauri@esquarelegal.com</a><br><span style="font-size:13px;color:var(--grey-text);">Monitored daily. For same-day segments, put the air time and time zone in the subject line.</span></td></tr>
+    </table>
+    <p style="font-size:13px;font-weight:600;letter-spacing:0.1em;text-transform:uppercase;color:var(--gold);margin-bottom:20px;">Clips</p>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:24px;max-width:900px;margin-bottom:40px;">
+      <div>
+        <div style="position:relative;padding-top:56.25%;background:#000;"><iframe src="https://www.youtube-nocookie.com/embed/WuvmeFd9sHQ?start=1020" title="Safi Ghauri on Pakistan TV Newsroom, Venezuela, segment 1" loading="lazy" frameborder="0" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;"></iframe></div>
+        <p style="font-size:13px;color:var(--grey-text);margin-top:8px;">Pakistan TV Newsroom, Venezuela &mdash; segment 1 (from 17:00)</p>
+      </div>
+      <div>
+        <div style="position:relative;padding-top:56.25%;background:#000;"><iframe src="https://www.youtube-nocookie.com/embed/WuvmeFd9sHQ?start=1620" title="Safi Ghauri on Pakistan TV Newsroom, Venezuela, segment 2" loading="lazy" frameborder="0" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;"></iframe></div>
+        <p style="font-size:13px;color:var(--grey-text);margin-top:8px;">Pakistan TV Newsroom, Venezuela &mdash; segment 2 (from 27:00)</p>
+      </div>
     </div>
-    <p style="font-size:13px;margin-top:20px;opacity:0.6;">Response within 24 hours.</p>
+    <div style="display:flex;gap:16px;flex-wrap:wrap;">
+      <a href="mailto:safighauri@esquarelegal.com" class="btn btn-gold">Email a booking request</a>
+      <a href="press-kit.html" class="btn btn-navy">Press Kit &rarr;</a>
+    </div>
   </div>
-</div>
+</section>
 
 <footer>
   <ul class="footer-links">

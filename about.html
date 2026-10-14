@@ -34,48 +34,50 @@
 {
   "@context": "https://schema.org",
   "@type": "Person",
+  "@id": "https://esquarelegal.com/founder/#person",
   "name": "Safi Ghauri",
-  "image": "https://www.safighauri.com/headshot.png",
   "alternateName": [
     "Safi Ullah Ghauri",
     "Safiullah Ghauri",
     "Barrister Safi Ullah Ghauri",
     "Barrister Safi Ghauri"
   ],
-  "jobTitle": "Managing Partner",
+  "jobTitle": "Founder & Managing Partner",
+  "worksFor": {
+    "@type": "Organization",
+    "@id": "https://esquarelegal.com/#organization",
+    "name": "Esquare Legal",
+    "url": "https://esquarelegal.com/"
+  },
   "affiliation": [
-    {
-      "@type": "Organization",
-      "name": "Esquare Legal",
-      "url": "https://esquarelegal.com"
-    },
     {
       "@type": "Organization",
       "name": "Tahota Law Firm"
     }
   ],
-  "alumniOf": {
-    "@type": "Organization",
-    "name": "Lincoln's Inn, London"
-  },
+  "alumniOf": [
+    {
+      "@type": "CollegeOrUniversity",
+      "name": "University of London"
+    },
+    {
+      "@type": "CollegeOrUniversity",
+      "name": "City St George's, University of London"
+    },
+    {
+      "@type": "Organization",
+      "name": "The Honourable Society of Lincoln's Inn"
+    }
+  ],
   "address": {
     "@type": "PostalAddress",
     "addressLocality": "São Paulo",
     "addressCountry": "BR"
   },
-  "sameAs": [
-    "https://www.linkedin.com/in/safi-ghauri",
-    "https://x.com/safighauri",
-    "https://www.youtube.com/@ghaurisafi",
-    "https://www.instagram.com/safi.ghauri/",
-    "https://medium.com/@Safi.Ullah.Ghauri",
-    "https://www.wikidata.org/wiki/Q139568272",
-    "https://esquarelegal.com/founder",
-    "https://www.crunchbase.com/person/safi-ghauri-0a7b",
-    "https://www.brecorder.com/authors/102153/barrister-safi-ullah-ghauri",
-    "https://thefridaytimes.com/contributor/safiullah-ghauri",
-    "https://www.pakistangulfeconomist.com/author/barrister-safi-ullah-ghauri/"
-  ],
+  "url": "https://www.safighauri.com/",
+  "image": "https://www.safighauri.com/headshot.png",
+  "email": "safighauri@esquarelegal.com",
+  "description": "Crypto and cross-border investments lawyer, registered in Brazil. Managing Partner Esquare Legal. Barrister of Lincoln's Inn, Partner Tahota Law Firm. 300+ broadcast appearances. Speaker Horasis, COP30, EU Commission DARTE. Cited The Independent UK, Bloomberg Arabic, CNA, Reuters.",
   "knowsAbout": [
     "Digital Asset Regulation",
     "Cross-Border Law",
@@ -91,9 +93,19 @@
     "CBDC",
     "Blockchain Arbitration"
   ],
-  "description": "Crypto and cross-border investments lawyer, registered in Brazil. Managing Partner Esquare Legal. Barrister of Lincoln's Inn, Partner Tahota Law Firm. 300+ broadcast appearances. Speaker Horasis, COP30, EU Commission DARTE. Cited The Independent UK, Bloomberg Arabic, CNA, Reuters.",
-  "url": "https://safighauri.com",
-  "email": "safighauri@esquarelegal.com"
+  "sameAs": [
+    "https://www.linkedin.com/in/safi-ghauri",
+    "https://x.com/safighauri",
+    "https://www.youtube.com/@ghaurisafi",
+    "https://www.instagram.com/safi.ghauri/",
+    "https://medium.com/@Safi.Ullah.Ghauri",
+    "https://www.wikidata.org/wiki/Q139568272",
+    "https://esquarelegal.com/founder/",
+    "https://www.crunchbase.com/person/safi-ghauri-0a7b",
+    "https://www.brecorder.com/authors/102153/barrister-safi-ullah-ghauri",
+    "https://thefridaytimes.com/contributor/safiullah-ghauri",
+    "https://www.pakistangulfeconomist.com/author/barrister-safi-ullah-ghauri/"
+  ]
 }
 </script>
 </head>
@@ -167,11 +179,11 @@ function toggleMenu() {
 
       <p>The regulatory work that followed did not merely advise on frameworks that already existed. It built them. His firm secured Pakistan's first-ever Buy Now, Pay Later licence from the Securities and Exchange Commission for QisstPay, in 2021. There was no precedent for the application when it was filed.</p>
 
-      <p>The firm also established the lending fintech sector in Pakistan and holds more NBFC licences than any other legal practice in the country. Across the full arc of Pakistan's digital financial regulation — from the earliest SECP fintech frameworks until the formation of PVARA — Esquare was in the room at state level before the institutions that would govern the industry had been formally constituted. He has advised both the companies seeking licences and presented directly to the regulators issuing them. That dual perspective is not common.</p>
+      <p>The firm also established the lending fintech sector in Pakistan and holds more NBFC licences than any other legal practice in the country. Across the full arc of Pakistan's digital financial regulation — from the earliest SECP fintech frameworks until the formation of PVARA — Esquare was in the room at state level before the institutions that would govern the industry had been formally constituted. He has advised both the companies seeking licences and presented directly to the regulators issuing them. That dual perspective is not common. He currently represents one of the world's largest global exchanges and several leading fintechs before PVARA.</p>
 
       <h2>International Expansion</h2>
 
-      <p>The practice expanded outward through a series of roles that each added a different dimension to his operational picture. As Vice President of Legal and Compliance at Fasset in Dubai, he secured the firm's VARA licence, one of the earliest and most comprehensive virtual asset licences issued by Dubai's regulator. As Head of Legal at Klink Financial in Berlin, he worked across crypto offerwall and digital asset product structures spanning EU and US markets.</p>
+      <p>The practice expanded outward through a series of roles that each added a different dimension to his operational picture. As Vice President of Legal and Compliance in Dubai, he obtained a VARA licence for a UAE digital asset platform. As Head of Legal at Klink Financial in Berlin, he worked across crypto offerwall and digital asset product structures spanning EU and US markets.</p>
 
       <p>His current portfolio of active mandates includes RWA Inc, a leading global real-world asset tokenisation platform; Tharwa, an Islamic stablecoin project; and InvoiceMate, one of the UAE's leading fintech platforms. These are not advisory engagements. They are embedded, retainer-based relationships where he functions as General Counsel at board level.</p>
 
@@ -223,6 +235,11 @@ function toggleMenu() {
           <div class="cred-value" style="margin-bottom:8px;">Partner, Tahota Law Firm</div>
           <div class="cred-value" style="margin-bottom:8px;">South America Correspondent, Pakistan TV</div>
           <div class="cred-value">General Counsel to select companies</div>
+        </div>
+        <h3 style="margin-top:24px;">Regulatory Record</h3>
+        <div>
+          <div class="cred-value" style="margin-bottom:8px;">Obtained a VARA licence for a UAE digital asset platform</div>
+          <div class="cred-value">Currently represents one of the world's largest global exchanges and several leading fintechs before PVARA</div>
         </div>
       </div>
     </div>
