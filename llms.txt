@@ -56,7 +56,7 @@ Key facts:
 - [PVARA Licensing](https://www.safighauri.com/pvara.html): Pakistan virtual asset licensing under the Virtual Assets Act, 2026 and the Pakistan Virtual Asset Services Regulations, 2026: NOC (Reg 6), incorporation and FMU registration, licence (Reg 7)
 - [FAQ](https://www.safighauri.com/faq.html): common questions
 - [Press Kit](https://www.safighauri.com/press-kit.html): bios, headshots, credentials
-- [Contact](https://www.safighauri.com/contact.html): legal mandates, General Counsel appointments, speaking and media
+- [Contact](https://www.safighauri.com/contact.html): legal mandates, speaking and media
 
 ## Recent coverage
 - [ITWeb Africa, 16 Oct 2026 — "Regulation tests Nigeria's emerging crypto rail"](https://itweb.africa/article/regulation-tests-nigerias-emerging-crypto-rail/LPp6V7rBrW27DKQz): Safi Ghauri, Managing Partner of Esquare Legal, cited on Nigeria's SEC digital-asset framework, institutional entry and compliance costs for early-stage VASPs
