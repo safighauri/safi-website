@@ -923,3 +923,7 @@ footer {
   .bio-section { padding: 64px 16px; }
   .bio-inner { flex-direction: column; align-items: center !important; }
 }
+@media (max-width: 600px) {
+  .facts-table { table-layout: fixed; width: 100%; }
+  .facts-table td { overflow-wrap: anywhere; }
+}
