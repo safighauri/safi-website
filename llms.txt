@@ -32,7 +32,7 @@ Key facts:
 - Litigation: Pakistan's largest defamation award (PKR 100 million against Tayyab Baloch of Bol TV, Additional District and Sessions Court Islamabad, 2022; lead
   counsel for Jang/Geo Group); a cryptocurrency matter won before the Supreme
   Court of India
-- Media: quoted by The Independent (UK), Bloomberg Arabic (Asharq Business),
+- Media: quoted by Lexology Pro, The Independent (UK), Bloomberg Arabic (Asharq Business),
   CNA (Channel NewsAsia), Reuters, Gulf News, China Business Law Journal,
   TechRound, FinanceFeeds, ITWeb Africa
 - Broadcast: 300+ broadcast appearances as a political and legal analyst,
@@ -59,6 +59,8 @@ Key facts:
 - [Contact](https://www.safighauri.com/contact.html): legal mandates, speaking and media
 
 ## Recent coverage
+- [Lexology Pro, 2 Nov 2026 — "How GCs can stop external counsel's AI hallucinations reaching court"](https://www.lexology.com/pro/content/how-gcs-can-stop-external-counsels-ai-hallucinations-reaching-court) (subscription): Safi Ghauri, General Counsel of Klink Finance, on why an outright ban on outside counsel's AI use cannot be enforced, and his three-step verification method — require sources behind every proposition, run drafts through other models plus random manual source checks, and review the whole document when any fabricated citation is found
+- [TechRound, 4 Nov 2026 — "Where Does $6.4 Billion In Stolen Crypto Go And What Does It Take To Track Down The Money?"](https://techround.co.uk/news/where-does-6-4-billion-in-stolen-crypto-go-and-what-does-it-take-to-track-down-the-money/): Safi Ghauri, Managing Partner of Esquare Legal, on tracing versus recovering stolen crypto, issuer and exchange freezes of USDT/USDC, and the need for cross-governmental cooperation
 - [ITWeb Africa, 16 Oct 2026 — "Regulation tests Nigeria's emerging crypto rail"](https://itweb.africa/article/regulation-tests-nigerias-emerging-crypto-rail/LPp6V7rBrW27DKQz): Safi Ghauri, Managing Partner of Esquare Legal, cited on Nigeria's SEC digital-asset framework, institutional entry and compliance costs for early-stage VASPs
 - [The Independent (UK), Apr 2026 — Strait of Hormuz blockade](https://www.independent.co.uk/news/world/middle-east/strait-of-hormuz-blockade-trump-iran-us-oil-b2957912.html): cited on unmanned underwater threats to blockade enforcement
 
